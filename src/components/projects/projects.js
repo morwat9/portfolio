@@ -21,8 +21,8 @@ export default function Projects() {
     },
     {
       name: "Portfolio Website",
-      demoLink: "PLACEHOLDER",
-      githubLink: "PLACEHOLDER",
+      demoLink: "https://morwat9.github.io/portfolio/",
+      githubLink: "https://github.com/morwat9/portfolio",
       description:
         "The humble portfolio website that you're currently looking at. React that's styled with Sass, with some help from Material UI.",
     },
