@@ -1,0 +1,38 @@
+@use "../../styles/utils.scss" as utils;
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+}
+
+.greeting-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.greeting-title {
+  font-family: "Inter", sans-serif;
+  font-size: xxx-large;
+  letter-spacing: -2px;
+  @include utils.medium-down {
+    font-size: xx-large;
+  }
+}
+
+.greeting-message {
+  font-family: "Inter", sans-serif;
+}
+
+.highlight {
+  color: utils.$color-blue;
+}
+
+.break {
+  @include utils.small-up {
+    display: none;
+  }
+}

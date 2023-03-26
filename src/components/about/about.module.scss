@@ -1,0 +1,101 @@
+@use "../../styles/utils.scss" as utils;
+
+.wrapper {
+  // display: flex;
+  // justify-content: center;
+
+  @include utils.medium-down {
+    margin-bottom: 3em;
+  }
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  color: utils.$color-green;
+
+  @include utils.medium-down {
+    text-align: center;
+  }
+}
+
+.introduction {
+  @include utils.medium-down {
+    padding: 2.5em 0;
+  }
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+
+  @include utils.medium-down {
+    flex-direction: column;
+  }
+}
+
+.about-left {
+  width: 200px;
+  padding: 4em 0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  @include utils.medium-down {
+    display: none;
+  }
+}
+
+.about-right {
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  font-family: "Lato", sans-serif;
+
+  p {
+    margin: 0;
+  }
+
+  @include utils.medium-down {
+    padding: 0;
+    text-align: center;
+    gap: 0;
+  }
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+
+  @include utils.medium-down {
+    gap: 0.5em;
+  }
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  width: 200px;
+  justify-content: center;
+
+  @include utils.medium {
+  }
+
+  @include utils.medium-down {
+    width: 150px;
+  }
+}
+
+.about-link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
