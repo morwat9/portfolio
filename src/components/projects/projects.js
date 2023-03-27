@@ -20,11 +20,11 @@ export default function Projects() {
         "Loopstudios is a home page for a company specializing in virtual reality. Made with React and styled with CSS.",
     },
     {
-      name: "Portfolio Website",
-      demoLink: "https://morwat9.github.io/portfolio/",
-      githubLink: "https://github.com/morwat9/portfolio",
+      name: "Ecommerce Web Store",
+      demoLink: "https://ecommerce-demo-beige.vercel.app/",
+      githubLink: "https://github.com/morwat9/ecommerce-demo",
       description:
-        "The humble portfolio website that you're currently looking at. React that's styled with Sass, with some help from Material UI.",
+        "An ecommerce page utilizing fakeStoreAPI. Users can filter and search store items and add them to their shopping cart for a total. Made with Next.js and Material UI.",
     },
     {
       name: "yesNo API",
